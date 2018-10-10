@@ -44,10 +44,9 @@ education:
       university: Tallinn University of Technology 
       time: 2012 - 2015
       details: |
-        My favourite course was probably Calculus by Liivi Kluge, very thorough explanations and practice sessions after which you felt like you understood a lot of arcane stuff.
-        Logical Programming by Jüri Vain was cool too. Had to develop an unusual way of thinking to use Prolog efficienly. 
+        My favourite course was probably Calculus by Liivi Kluge - very thorough explanations and practice sessions after which you felt like you finally understood a lot of arcane stuff.
+        Logical Programming by Jüri Vain was cool too. Using Prolog definitely required an unusual way of thinking about programming. 
         Also enjoyed taking part in programming competitions thanks to the Ago Luberg.  
-
 
 experiences:
     - role: Machine Learning Engineer
@@ -71,23 +70,23 @@ projects:
     assignments:
       - title: EORI for Estonian Tax and Customs Board 
         link: "https://www.emta.ee/et/ariklient/toll-kaubavahetus/ettevotja-registreerimine-eori"
-        role: "Role: Lead Developer. "
-        tagline: "EORI system"
+        role: "(Lead Developer)"
+        tagline: "System for EORI - economic person registration. A lot of integration with central european service."
 
       - title: Port of Tallinn electronic system for ferry service
         link: "https://www.praamid.ee"
-        role: "Role: Developer. "
-        tagline: "Ferry service"
+        role: "(Developer)"
+        tagline: "A ticketing and scheduling system for ferries that go between eastern estonian islands."
 
       - title: Electronic procurement system for Estonian Ministry of Finance
         link: "https://riigihanked.riik.ee/register"
-        tagline: "System for procurement"
-        role: "Role: Developer. "
+        tagline: "A system that is used nationally to make procurements."
+        role: "(Developer) "
 
       - title: eHL Suite
         link: "#"
-        role: "Role: Developer. "
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        role: "(Developer)"
+        tagline: "A complete electronic system for major estonian (and later export to lithuaninan ones too) hospitals."
 
 
 skills:
