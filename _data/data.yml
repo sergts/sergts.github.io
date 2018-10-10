@@ -25,35 +25,28 @@ sidebar:
     medium: symbolist
         
     interests:
-      - item: Climbing
+      - item: Hiking & Cycling
         link:
 
-      - item: Snowboarding
+      - item: SciFi & History Books
         link:
 
-      - item: Cooking
+      - item: AI stuff
         link:
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
       
-
-      Second paragraph if required.
 
 education:
     - degree: Computer Science
       university: Tallinn University of Technology 
       time: 2012 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+        My favourite course was probably Calculus by Liivi Kluge, very thorough explanations and practice sessions after which you felt like you understood a lot of arcane stuff.
+        Logical Programming by Jüri Vain was cool too. Had to develop an unusual way of thinking to use Prolog efficienly. 
+        Also enjoyed taking part in programming competitions thanks to the Ago Luberg.  
 
 
 experiences:
@@ -61,31 +54,13 @@ experiences:
       time: Feb 2018 - Present
       company: Kodality, Tallinn
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point 
+         
 
     - role: Software Engineer
       time: 2014 - 2018
       company: Nortal, Tallinn
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        
 
 
 projects:
