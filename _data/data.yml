@@ -97,7 +97,7 @@ projects:
       - title: EORI for Estonian Tax and Customs Board 
         link: "https://www.emta.ee/et/ariklient/toll-kaubavahetus/ettevotja-registreerimine-eori"
         role: "Role: Lead Developer. "
-        tagline: ""
+        tagline: "EORI system"
 
       - title: Port of Tallinn electronic system for ferry service
         link: "https://www.praamid.ee"
@@ -106,11 +106,12 @@ projects:
 
       - title: Electronic procurement system for Estonian Ministry of Finance
         link: "https://riigihanked.riik.ee/register"
-        tagline: ""
+        tagline: "System for procurement"
         role: "Role: Developer. "
 
       - title: eHL Suite
         link: "#"
+        role: "Role: Developer. "
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
 
