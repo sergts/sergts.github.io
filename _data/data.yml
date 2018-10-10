@@ -28,7 +28,7 @@ sidebar:
       - item: Hiking & Cycling
         link:
 
-      - item: SciFi & History Books
+      - item: Sci-Fi, History & Pop-Sci Books
         link:
 
       - item: AI stuff
@@ -37,7 +37,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      
+      I'm only human.
 
 education:
     - degree: Computer Science
@@ -53,13 +53,13 @@ experiences:
       time: Feb 2018 - Present
       company: Kodality, Tallinn
       details: |
-         
+         Researching, analyzing and implementing Machine Learning solutions. 
 
     - role: Software Engineer
       time: 2014 - 2018
       company: Nortal, Tallinn
       details: |
-        
+        Developing, documenting, testing and delivering software systems.
 
 
 projects:
@@ -84,9 +84,9 @@ projects:
         role: "(Developer) "
 
       - title: eHL Suite
-        link: "#"
+        link: "https://www.kliinikum.ee/leht/e-keskkond"
         role: "(Developer)"
-        tagline: "A complete electronic system for major estonian (and later export to lithuaninan ones too) hospitals."
+        tagline: "An electronic system for major estonian (and later export to lithuaninan ones too) hospitals."
 
 
 skills:
