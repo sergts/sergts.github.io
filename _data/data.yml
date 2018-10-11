@@ -37,16 +37,14 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      I'm only human.
+      I develop computer systems that simplify people's lifes. Since February I started working on Machine Learning projects.
 
 education:
     - degree: Computer Science
       university: Tallinn University of Technology 
       time: 2012 - 2015
       details: |
-        My favourite course was probably Calculus by Liivi Kluge - very thorough explanations and practice sessions after which you felt like you finally understood a lot of arcane stuff.
-        Logical Programming by Jüri Vain was cool too. Using Prolog definitely required an unusual way of thinking about programming. 
-        Also enjoyed taking part in programming competitions thanks to the Ago Luberg.  
+        
 
 experiences:
     - role: Machine Learning Engineer
