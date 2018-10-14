@@ -37,7 +37,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      I develop computer systems that simplify people's lifes. Since February I started working on Machine Learning projects.
+      I develop computer systems that simplify people's lifes. Since February I started working on Machine Learning projects. 
 
 education:
     - degree: Computer Science
@@ -69,7 +69,7 @@ projects:
       - title: EORI for Estonian Tax and Customs Board 
         link: "https://www.emta.ee/et/ariklient/toll-kaubavahetus/ettevotja-registreerimine-eori"
         role: "(Lead Developer)"
-        tagline: "System for EORI - economic person registration. A lot of integration with central european service."
+        tagline: "System for EORI - economic person registration. Integrates with other European countries."
 
       - title: Port of Tallinn electronic system for ferry service
         link: "https://www.praamid.ee"
@@ -100,11 +100,14 @@ skills:
       - name: SQL
         level: 85%
 
-      - name: Linux
+      - name: Unix
         level: 85%
 
       - name: JavaScript & Angular
-        level: 60%
+        level: 65%
+        
+      - name: C++
+        level: 30%
        
 
 footer: >
