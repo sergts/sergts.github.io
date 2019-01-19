@@ -12,7 +12,7 @@ sidebar:
     avatar: mypic_small.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: sergei.tsimbalist@kodality.com
+    email: sergei.tsim at gmail
     phone:
     website:
     linkedin: sergei-tsimbalist-248541155
@@ -39,9 +39,13 @@ career-profile:
       I develop computer systems that simplify people's lifes. Since February I started working on Machine Learning projects. 
 
 education:
-    - degree: Computer Science
+    - degree: High School Diploma with distinction
+      university: Tallinn Õismäe Russian Lyceum
+      time:
+      details: |
+    - degree: BSc Computer Science
       university: Tallinn University of Technology 
-      time: 2012 - 2015
+      time:
       details: |
         
 
@@ -99,11 +103,8 @@ skills:
       - name: SQL
         level: 85%
 
-      - name: Unix
-        level: 85%
-
       - name: JavaScript
-        level: 65%
+        level: 70%
         
        
 
