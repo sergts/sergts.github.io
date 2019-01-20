@@ -74,7 +74,7 @@ projects:
       These are the projects that I am proud to have taken part in.
 
     assignments:
-      - title: Smart e-mail recognition for sales department
+      - title: Smart e-mail recognition for K+N sales department
         link:
         role: "(Machine Learning Engineer)"
         tagline: "A full ML pipeline for e-mail recogniton and response generation."
