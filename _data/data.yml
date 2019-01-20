@@ -116,7 +116,13 @@ skills:
       - name: JavaScript
         level: 75%
         
+publications:
+    title: Appearances
+    papers:
+      - title: Neural networks and the human language presentation (in russian)
+        link: https://www.youtube.com/watch?v=R06QfCLrfXw
+        authors:
+        conference: Devclub
        
-
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
