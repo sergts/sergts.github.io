@@ -77,7 +77,7 @@ projects:
       - title: Smart e-mail recognition for K+N sales department
         link:
         role: "(Machine Learning Engineer)"
-        tagline: "A full ML pipeline for e-mail recogniton and response generation."
+        tagline: "An end-to-end ML pipeline for e-mail recogniton and response generation."
         
       - title: EORI for Estonian Tax and Customs Board 
         link: "https://www.emta.ee/et/ariklient/toll-kaubavahetus/ettevotja-registreerimine-eori"
