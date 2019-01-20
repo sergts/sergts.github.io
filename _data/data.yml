@@ -50,11 +50,16 @@ education:
         
 
 experiences:
-    - role: Machine Learning Engineer
+    - role: Machine Learning Specialist
       time: Feb 2018 - Present
       company: Kodality, Tallinn
       details: |
-         Researching, analyzing and implementing Machine Learning solutions. 
+         Researching, analyzing and implementing solutions. 
+    - role: Machine Learning Engineer
+      time: Feb 2018 - Sep 2018
+      company: Kuehne+Nagel, Tallinn
+      details: |
+         Implementing ML models, building data pipelines.
 
     - role: Software Engineer
       time: 2014 - 2018
@@ -69,6 +74,11 @@ projects:
       These are the projects that I am proud to have taken part in.
 
     assignments:
+      - title: Smart e-mail recognition for sales department
+        link:
+        role: "(Machine Learning Engineer)"
+        tagline: "A full ML pipeline for e-mail recogniton and response generation."
+        
       - title: EORI for Estonian Tax and Customs Board 
         link: "https://www.emta.ee/et/ariklient/toll-kaubavahetus/ettevotja-registreerimine-eori"
         role: "(Lead Developer)"
