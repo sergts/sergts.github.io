@@ -36,7 +36,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      I develop computer systems that simplify people's lifes. Since February I started working on Machine Learning projects. 
+      I develop computer systems that improve people's lifes. 
 
 education:
     - degree: High School Diploma with distinction
@@ -101,20 +101,20 @@ projects:
 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Languages
 
     toolset:
       - name: Java
         level: 97%
 
       - name: Python
-        level: 90%
+        level: 95%
 
       - name: SQL
         level: 85%
 
       - name: JavaScript
-        level: 70%
+        level: 75%
         
        
 
