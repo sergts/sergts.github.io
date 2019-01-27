@@ -117,8 +117,11 @@ skills:
         level: 75%
         
 publications:
-    title: Appearances
+    title: Achievements, talks, papers
     papers:
+      - title: Detecting, classifying and explaining IoT botnet attacks using Deep Learning - BSc thesis
+        link: https://github.com/sergts/botnet-traffic-analysis
+        conference: TalTech
       - title: Neural networks and the natural language, presentation (in russian)
         link: https://www.youtube.com/watch?v=R06QfCLrfXw
         authors:
