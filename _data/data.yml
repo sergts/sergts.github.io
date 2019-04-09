@@ -86,7 +86,7 @@ projects:
         tagline: "A ticketing and scheduling system for ferries that go between eastern estonian islands."
 
       - title: Electronic procurement system for Estonian Ministry of Finance
-        link: "https://riigihanked.riik.ee/register"
+        link: "https://riigihanked.riik.ee"
         tagline: "A system that is used nationally to make procurements."
         role: "(Developer) "
 
