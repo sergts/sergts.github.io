@@ -93,7 +93,7 @@ projects:
       - title: eHL Suite
         link: "https://www.kliinikum.ee/leht/e-keskkond"
         role: "(Developer)"
-        tagline: "An electronic system for major estonian (and later export to lithuaninan ones too) hospitals."
+        tagline: "An electronic system for major estonian hospitals."
 
 
 skills:
