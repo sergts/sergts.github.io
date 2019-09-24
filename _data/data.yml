@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Sergei Tsimbalist
-    tagline: Software and Machine Learning Engineering
+    tagline: Software Engineer
     avatar: mypic_small.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -24,26 +24,32 @@ sidebar:
     codewars:
     
     interests:
-      - item: Hiking & Cycling
+      - item: Hiking
+        link:
+        
+      - item: Birding
         link:
 
-      - item: Sci-Fi, History & Pop-Sci Books
+      - item: AI
         link:
-
-      - item: AI stuff
+        
+      - item: Neuroscience
         link:
 
 career-profile:
     title: About me
     summary: |
-      I develop computer systems that improve people's lives.
+      I develop computer systems that improve people's lives. Currently study Computer Science @ University of Tartu.
 
 education:
     - degree: BSc Computer Science (Cum Laude)
       university: Tallinn University of Technology 
       time:
       details: |
-        
+    - degree: MSc Computer Science
+      university: University of Tartu
+      time: 2019-
+      details: |
 
 experiences:
     - role: Machine Learning Specialist
