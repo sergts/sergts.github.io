@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>blog</title>
+<title>blog2</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13018,16 +13018,42 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    /*This file contains any manual css for this page that needs to override the global styles.
-This is only required when different pages style the same element differently. This is just
-a hack to deal with our current css styles and no new styling should be added in this file.*/
+    
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
 
-#ipython-main-app {
-    position: relative;
-}
-#jupyter-main-app {
-    position: relative;
-}
+.ansi-bold { font-weight: bold; }
 
     </style>
 
@@ -13097,8 +13123,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This work has been done as a final project for Introduction to Computational Neuroscience class at the University of Tartu.</p>
-<p><em>Author: Sergei Tsimbalist (University of Tartu)</em></p>
+<p><em>This work has been done as the final project for the <a href="https://courses.cs.ut.ee/2019/neuro/fall">Introduction to Computational Neuroscience class</a> (lecturer: Raul Vicente, teaching assitants: Aqeel Labash, Daniel Majoral) at the University of Tartu, fall 2019.</em></p>
+<p><em>Author: Sergei Tsimbalist</em></p>
 
 </div>
 </div>
@@ -13137,7 +13163,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://i.imgur.com/0ZyaPt3.png"></p>
+<p><img src="https://i.imgur.com/0ZyaPt3.png" height="300" style="height:300px"></p>
+<p><center><a href="https://hiepph.github.io/post/2018-03-06-capsules/">Source.</a></p>
 
 </div>
 </div>
@@ -13154,6 +13181,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="https://openai.com/content/images/2017/02/adversarial_img_1.png"></p>
+<p><center><a href="https://openai.com/blog/adversarial-example-research/">Source.</a><center></p>
 
 </div>
 </div>
@@ -13161,7 +13189,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this regard the neural netoworks are less "robust" compared to human brains, because for humans to be fooled by the image, it usually requires quite substantial changes, as for example here:</p>
+<p>In this regard the neural netoworks are less "robust" compared to human brains, because for humans to be fooled by the image, it usually requires quite substantial changes. However, some reaserchers try to find examples where small changes also fool humans, as for example here:</p>
 
 </div>
 </div>
@@ -13169,8 +13197,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://cdn.thenewstack.io/media/2018/05/4904b88d-google-brain-adversarial-images-fool-humans-computers-5.jpeg" style="height:350px"></p>
-
+<p><img src="https://cdn.thenewstack.io/media/2018/05/4904b88d-google-brain-adversarial-images-fool-humans-computers-5.jpeg" height="300" style="height:300px"></p>
+<center><a href="https://thenewstack.io/google-develops-adversarial-example-images-that-fool-both-humans-and-computers/">Source.</a></center>
 </div>
 </div>
 </div>
@@ -13185,8 +13213,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://www.researchgate.net/profile/Jonathan_Schooler/publication/271842692/figure/fig4/AS:614224988495873@1523454057373/The-young-girl-old-woman-illusion-otherwise-known-as-My-Wife-and-My-Mother-in-Law-is.png" style="height:350px"></p>
-
+<p><img src="https://www.researchgate.net/profile/Jonathan_Schooler/publication/271842692/figure/fig4/AS:614224988495873@1523454057373/The-young-girl-old-woman-illusion-otherwise-known-as-My-Wife-and-My-Mother-in-Law-is.png" height="300" style="height:300px"></p>
+<center>An illusion. <a href="https://www.researchgate.net/figure/The-young-girl-old-woman-illusion-otherwise-known-as-My-Wife-and-My-Mother-in-Law-is_fig4_271842692">Source.</a></center>
 </div>
 </div>
 </div>
@@ -13209,6 +13237,25 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>The focus of this study is on the CORnet family of neural networks, and in particular their robustness towards the adversarial attacks.</p>
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/F1.large.jpg" height="400" style="height:400px"></p>
+<center><a href="https://www.biorxiv.org/content/10.1101/408385v1.full">Source.</a></center><p>To have some sort of comparison, two models will be considered and their robustness compared: CORnet-Z and CORnet-S. The implementation of these models can be found at <a href="https://github.com/dicarlolab/CORnet">https://github.com/dicarlolab/CORnet</a>. The implementations are in PyTorch. The authors also provide the pretrained weights, that will be used in this work.</p>
+<p>For the testing, mainly the ImageNet 2012 validation data will be used <a href="http://image-net.org/challenges/LSVRC/2012/">http://image-net.org/challenges/LSVRC/2012/</a>, but for singular examples other data will be used also.</p>
+<p><img/>
+The adversarial attacks will be implemented using the Adversarial Robustness Toolbox <a href="https://adversarial-robustness-toolbox.readthedocs.io/en/latest/">https://adversarial-robustness-toolbox.readthedocs.io/en/latest/</a> which provides an easy way to create eaxmples with.</p>
+<p>Two attack methods will be used in this work: Fast Gradient Sign Method and Projected Gradient Descent Method. 
+Basic idea behind Fast Gradient Sign Method: find how to change input based on the gradient of the loss function.
+\begin{align}
+x &amp; = x_{adv} + \epsilon * sign(\nabla_x J(x,y)) \\
+\end{align}</p>
+<p>To analyze features in the last layers of the models t-SNE implementation provided by sklearn will be used.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h2>
 </div>
 </div>
@@ -13216,7 +13263,449 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">&#182;</a></h2>
+<p>Validating CORnet-S on a sample from ImageNet gave results of 75% accuracy for TOP-1 and 94% accuracy for TOP-5. This was considered state of the art in around 2015. Authors stressed that the goal of CORnet is not to beat other models on accuracy, so this is fine. On the other hand CORnet-S has only 58M parameters compared to current SOTA solutions that have 480M parameters according to <a href="https://paperswithcode.com/sota/image-classification-on-imagenet">https://paperswithcode.com/sota/image-classification-on-imagenet</a>.</p>
+<p>Now let's see some examples of adversarial attacks: on the left will be original image, on the right the adversarial image and in the middle is the adversarial perturbation.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Fast-Gradient-Sign-Method">Fast Gradient Sign Method<a class="anchor-link" href="#Fast-Gradient-Sign-Method">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_z%20fgsm%20magpie%20untargeted%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>First thing to notice: the network correctly recognizes the type of bird. Performing untargeted Fast Gradient attack the class changes to junco, another type of bird.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20fgsm%20magpie%20untargeted%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Attack on CORnet-S also changes class to junco, albeit it now has less confidence. To kill two birds with one stone, I will show you how a junco looks like and this will also serve as a test, whether this neural network can recognize the paining of an object.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_z%20fgsm%20junco%2C%20snowbird%20untargeted%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can notice that the magpie on the picture and the junco have this specific black top, white bottom look. Also, the network recognized junco from the painting, and after the attack it becomes a hornbill. What does it look like?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Great_Hornbill_Goa.jpg/800px-Great_Hornbill_Goa.jpg" height="300" style="height:300px"></p>
+<p><center> Hornbill bird. Weird, but okay.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now let's try with the advanced model.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20fgsm%20junco%2C%20snowbird%20untargeted%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So, after the attack it becomes a handkerchief. Interesting. This is a handkerchief:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/816Sm64E4rL._AC_UX679_.jpg" height="250" style="height:250px"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Perhaps it has something to do with the fact that this image is actually a photo of a painting done on a canvas? If you zoom it, you can see the texture of the canvas, so maybe this attack makes sense.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/junco_zoomed.jpg" height="300" style="height:300px"></p>
+<center>Zoomed in to see the texture. <a href="https://dawn-langstroth-art.myshopify.com/products/snowbird-dark-eyed-junco">Source.</a></center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can also try to do a targeted attack, this is when you specify the class that you want the adversarial example to have. Let's turn our magpie into something that is semantically far, for example a street sign:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20fgsm%20magpie%20street%20sign%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The attack did not work. Let's try to change the class to something that is more semantically similar. For example the magpie belongs to the same family, namely Corvids, as the jay bird, which is also present in the ImageNet.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/corvidspeciespdf_1264-1.jpg" height="350" style="height:350px"></p>
+<center>Corvid Species by Catherine Pape</center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20fgsm%20magpie%20jay%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Success! And based on the perturbation map, not a lot was changed.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now, let's see how the models work with out-of-distribution data. Below is a picture of a man, ImageNet has no "man" or "human" classes, but what will out model think this is?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_z%20fgsm%20gyromitra%20common%20newt%2C%20Triturus%20vulgaris%20corr.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Hm, a gyromitra...</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/440px-2007-04-02_Gyromitra_esculenta_cropped.jpg" height="250" style="height:250px"></p>
+<center>Gyromitra esculenta, a mushroom.</center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Well, both of them are leathery-brownish.</p>
+<p>And what does the more advanced model think?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20fgsm%20tobacco%20shop%2C%20tobacconist%20shop%2C%20tobacconist%20common%20newt%2C%20Triturus%20vulgaris%20corr.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A tobacco shop? This too has associations with brown color. Interestingly, these attacks - trying to turn him into a newt, did not succeed, and the resulting images are very grainy.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Projected-Gradient-Descent">Projected Gradient Descent<a class="anchor-link" href="#Projected-Gradient-Descent">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Fast Gradient is essentially a one-iteration attack, so it's possiblities are apparently quite limited. Another type of attack - Projected Gradient Descent allows you to specify for how much iterations you want to run it - resulting in more effectiveness but also increased computational requirements.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>With PGD we can turn the magpie into a street sign now:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20pgd%20magpie%20street%20sign%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>And turn the poor man into a newt:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20pgd%20tobacco%20shop%2C%20tobacconist%20shop%2C%20tobacconist%20common%20newt%2C%20Triturus%20vulgaris%20.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://i.stack.imgur.com/VtefW.gif"></p>
+<center>Monty Python and the Holy Grail.</center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>And if the PGD attack does not succeed at first... (100 iterations max)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20pgd%20zebra%20moped%20fail.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can allow it to run a bit more: (300 iterations max)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornet_s%20pgd%20zebra%20moped%20.png"></p>
+<center>"Do I look like a moped to you?"</center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>But now the last example took 13 seconds to compute. Fast Gradient on the other hand takes on the order of milliseconds.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Some summary of the results are seen on the plot below. I have performed an experiment where I chose random images from ImageNet validation set and tried to crete an attack on them using Fast Gradient and Projected Gradient Descent method. This was done for both models Z and S. Conditions of a successful attack: model must have high confidence (&gt;0.5) in the targeted class and only those images were selected, where models had high confidence (&gt;0.5) in the original class before the attack.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/attack_success.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>For CORnet-Z the numbers are 21% and 99%. Meaning with PGD it is almost always possible to craft an adversarial example for this network.</p>
+<p>For CORnet-S the numbers are 1% and 84%. So CORnet-S can be said to be more robust, especially towards "cheap" attacks.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exploring-the-last-feature-layer-and-the-adversarial-attacks">Exploring the last feature layer and the adversarial attacks<a class="anchor-link" href="#Exploring-the-last-feature-layer-and-the-adversarial-attacks">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now let's explore the object representations based on the last feature layer in CORnet-S model. For this I have selected 5 categories of animals, which will include multiple ImageNet classes:</p>
+<ul>
+<li>songbirds (brambling, robin, chickadee, indigo finch)</li>
+<li>waterbirds (goose, black swan, marsh hen, pelican)</li>
+<li>birds of prey (kite, bald eagle, vulture, grey owl)</li>
+<li>dogs (chihuahua, japanese spaniel, maltese terrier, bloodhound) </li>
+<li>cats (tabby, persian, siamese, egyptian)</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/animals.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Then a sample of 50 images was taken for each category, for each image the last layer features were extracted and then their dimensions reduced from 512 to 2 using t-SNE. This is the resulting plot for CORnet-S model:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/tnse_s.png" height="600" style="height:600px"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>As you can see, it exhibits very neat clustering. Not only each category has its own cluster, but there are also broader divisions between birds and cats+dogs.</p>
+<p>This is the manifold for CORnet-Z. There are some clusters, but overall not impressive:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/tsne_z.png" height="600" style="height:600px"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now it was interesting to check is if it is easier to create an adversarial example when original and target class belong to the same or similar category. This is not a rigorous statistical investigation, but the results suggest that this is the case:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/fastgradatk.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I reran this calculation but now with same category attacks excluded (e.g. no geese -&gt; black swan)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/fastgradatk_nodiag.png"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Birds and mammals seem to form these groups where it is easier to create adversarial attacks between them.</p>
+
 </div>
 </div>
 </div>
@@ -13230,14 +13719,32 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Acknowledgement">Acknowledgement<a class="anchor-link" href="#Acknowledgement">&#182;</a></h2>
+<table>
+    <tr><td>CORnet-Z</td><td>CORnet-S</td></tr>
+  <tr>
+
+   <td> <img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornetz-graph.jpg" height="200" style="height:200px"> </td>
+<td><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/cornets-graph.jpg" height="300" style="height:300px"> </td>
+
+   </tr>
+</table><p>Clearly, CORnet architecture is not immune to adversarial attacks. CORnet-S is robust towards Fast Gradient attacks, but using the iterative methods it is possible to craft adversarial examples for vast majority of cases. CORnet-S has more logical object representation at the last feature layer compared to CORnet-Z.</p>
+<p>The questions that require further investigation are: what causes CORnet-S to be more robust? It is just the number of parameters or some special parts of its architecture? Moreover, what is the relationship between how objects are represented in the feature space of the neural network and how easy/difficult it is to craft the attacks? Is it always more difficult to craft attacks for classes that are far apart in the feature/semantic space?</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This work was supported by IT Academy / StudyITin.ee</p>
+<h2 id="Acknowledgement-of-scholarship-support">Acknowledgement of scholarship support<a class="anchor-link" href="#Acknowledgement-of-scholarship-support">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The creation of this work was supported by IT Academy / StudyITin.ee</p>
+<p><img src="https://raw.githubusercontent.com/sergts/comp-neuro-adv-attacks/master/ita_small-logo-eng.png"/></p>
 
 </div>
 </div>
@@ -13257,6 +13764,8 @@ div#notebook {
 <p><a href="https://openai.com/blog/adversarial-example-research/">https://openai.com/blog/adversarial-example-research/</a></p>
 <p><a href="https://arxiv.org/pdf/1901.09878.pdf">https://arxiv.org/pdf/1901.09878.pdf</a></p>
 <p><a href="https://arxiv.org/pdf/1802.08195.pdf">https://arxiv.org/pdf/1802.08195.pdf</a></p>
+<p><a href="https://arxiv.org/abs/1412.6572">https://arxiv.org/abs/1412.6572</a></p>
+<p><a href="https://arxiv.org/abs/1905.02175">https://arxiv.org/abs/1905.02175</a></p>
 <p><a href="https://www.biorxiv.org/content/10.1101/407007v1.full">https://www.biorxiv.org/content/10.1101/407007v1.full</a></p>
 <p><a href="https://www.nature.com/articles/s41467-019-08931-6">https://www.nature.com/articles/s41467-019-08931-6</a></p>
 <p><a href="https://pytorch.org/tutorials/beginner/fgsm_tutorial.html">https://pytorch.org/tutorials/beginner/fgsm_tutorial.html</a></p>
@@ -13265,6 +13774,11 @@ div#notebook {
 <p><a href="http://www.image-net.org/challenges/LSVRC/2014/">http://www.image-net.org/challenges/LSVRC/2014/</a></p>
 <p><a href="https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html">https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html</a></p>
 <p><a href="https://kndrck.co/posts/capsule_networks_explained/">https://kndrck.co/posts/capsule_networks_explained/</a></p>
+<p><a href="https://stackoverflow.com/questions/48180327/matplotlib-3d-scatter-plot-with-images-as-annotations">https://stackoverflow.com/questions/48180327/matplotlib-3d-scatter-plot-with-images-as-annotations</a></p>
+<p><a href="https://calebrob.com/ml/imagenet/ilsvrc2012/2018/10/22/imagenet-benchmarking.html">https://calebrob.com/ml/imagenet/ilsvrc2012/2018/10/22/imagenet-benchmarking.html</a></p>
+<p><a href="https://paperswithcode.com/sota/image-classification-on-imagenet">https://paperswithcode.com/sota/image-classification-on-imagenet</a></p>
+<p><a href="https://dawn-langstroth-art.myshopify.com/products/snowbird-dark-eyed-junco">https://dawn-langstroth-art.myshopify.com/products/snowbird-dark-eyed-junco</a></p>
+<p><a href="https://www.etsy.com/es/listing/563989483/corvid-species-of-britain-art-print">https://www.etsy.com/es/listing/563989483/corvid-species-of-britain-art-print</a></p>
 
 </div>
 </div>
